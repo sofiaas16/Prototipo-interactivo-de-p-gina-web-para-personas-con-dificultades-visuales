@@ -1,0 +1,15 @@
+:root {
+    --color-1: 141414;
+    --color-2: 000000;
+
+}
+
+@font-face {
+    font-family: "Readex";
+    src: url(../storage/font/Readex_Pro/static/ReadexPro-Light.ttf);
+}
+
+@font-face {
+    font-family: "Readexb";
+    src: url(../storage/font/Readex_Pro/static/ReadexPro-Medium.ttf);
+}
