@@ -1,0 +1,83 @@
+@import url(variables.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    margin:7.5%;
+}
+
+
+.container {
+    display: grid;
+    padding-top: 40px;
+    gap: 0px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: start;
+    justify-content: start;
+    grid-template-areas:
+        "titulo img"
+        "desc desc";
+}
+
+.title{
+    width: 100%;
+}
+
+.container h1 {
+    font-family: "Readexb";
+    margin-top:120%;
+    margin-left: -355px;
+}
+
+.container p {
+    font-family: "Readex";
+    margin-top: 5%;
+    margin-left: -155%;
+}
+
+.left {
+    
+    display: flex;
+    grid-area: titulo;
+    align-self: start;
+    justify-self: start;
+    margin-left: 50px;
+}
+
+.info {
+    display: flex;
+    grid-area: desc;
+    align-self: start;
+    justify-self: start;
+    margin-left: 65.7%;
+}
+
+.left img {
+    width: 90%;
+
+    margin-left: 150px;
+}
+
+.right {
+    display: flex;
+    grid-area: img;
+    align-self: start;
+    justify-self: start;
+    object-fit: cover;
+}
+.right .img img {
+    width: 200%;
+    margin-left: -220px;
+    margin-top: 50px;
+}
+
+.right img {
+    margin-top: 400px;
+    margin-left: -200px;
+}
