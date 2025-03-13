@@ -3,7 +3,7 @@
     --color-2: 000000;
     --color-3: #FFFFFF;
     --color-4: #F6F6F6; 
-
+    --color-2: #000000;
 }
 
 @font-face {
@@ -16,3 +16,12 @@
     src: url(../storage/font/Readex_Pro/static/ReadexPro-Regular.ttf);
 }
 
+@font-face {
+    font-family: "Robotob";
+    src: url(../storage/font/Roboto/Roboto_Condensed/static/RobotoCondensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Robotor";
+    src: url(../storage/font/Roboto/Roboto_Condensed/static/RobotoCondensed-ExtraLight.ttf);
+}
