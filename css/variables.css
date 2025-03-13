@@ -1,6 +1,8 @@
 :root {
     --color-1: 141414;
     --color-2: 000000;
+    --color-3: #FFFFFF;
+    --color-4: #F6F6F6; 
 
 }
 
@@ -13,3 +15,4 @@
     font-family: "Readexb";
     src: url(../storage/font/Readex_Pro/static/ReadexPro-Regular.ttf);
 }
+
